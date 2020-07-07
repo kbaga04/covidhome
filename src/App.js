@@ -39,6 +39,8 @@ class App extends React.Component {
         <GlobalStyle />
         <div className={styles.totalContain}>
           <Cards data={data} />
+          <CountryPicker handleCountryChange={this.handleCountryChange} />
+          <Chart data={data} country={country} />
         </div>
       </>
     );
