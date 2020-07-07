@@ -39,7 +39,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 801px) {
   .totalContain {
     margin: 0 10%;
   }

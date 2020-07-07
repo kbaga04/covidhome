@@ -1,0 +1,219 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+.contain{
+    width: 45%;
+    float: left;
+}
+
+h3{
+    text-align: center;
+}
+
+.charts{
+    width: 60%;
+    height: 60%;
+    margin-left: 50px;
+    float: left;
+    margin-top: 4%;
+}
+
+.stat{
+    margin-top: 3%;
+}
+
+th{
+    text-align: left;
+}
+
+table{
+    border-spacing: 5px;
+    margin: 0 0;
+    font-size: 0.9em;
+    width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+table th, table td{
+    padding: 12px 15px;
+}
+
+table tbody tr{
+    border-bottom: 1px solid #dddddd;
+    font-family: 'Merriweather', serif;
+}
+
+table tbody tr:nth-of-type(even){
+    background-color: rgba(202, 204, 206, 0.6);
+    color: #009879;
+    font-weight: 600;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+table{
+    border-bottom: 2px solid #009879;
+}
+
+@media only screen and (max-width: 375px) {
+   .contain{
+       width: 80%;
+   }
+
+   table{
+       width: 300px;
+   }
+}
+
+@media only screen and (min-width: 900px){
+    table{
+        width: 450px;
+    }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+h3{
+    text-align: center;
+}
+
+th{
+    text-align: left;
+}
+
+.charts{
+    width: 60%;
+    height: 60%;
+    width: 45%;
+    margin-left: 50px;
+    float: left;
+    margin-top: 4%;
+}
+
+.stat{
+    margin-top: 3%;
+}
+
+.contain{
+    width: 45%;
+    float: left;
+}
+
+table{
+    border-spacing: 5px;
+    margin: 0 0;
+    font-size: 0.9em;
+    width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+table th, table td{
+    padding: 12px 15px;
+}
+
+table tbody tr{
+    border-bottom: 1px solid #dddddd;
+    font-family: 'Merriweather', serif;
+}
+
+table tbody tr:nth-of-type(even){
+    background-color: rgba(202, 204, 206, 0.6);
+    color: #009879;
+    font-weight: 600;
+}
+
+.three{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+table{
+    border-bottom: 2px solid #009879;
+}
+
+@media only screen and (max-width: 375px) {
+    .contain{
+        width: 80%;
+    }
+ 
+    table{
+        width: 300px;
+    }
+ }
+
+ @media only screen and (min-width: 900px){
+    table{
+        width: 450px;
+    }
+    .stat{
+        width: 902px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .charts{
+        width: 80%;
+        height: 20vh;
+    }
+    .table{
+        width: 80%;
+    }
+}
+
+@media only screen and (width: 768px){
+    .table{
+        width: 100%;    
+    }
+    .contain{
+        width: 100%;
+        float: none; 
+    }
+}
+
+@media only screen and (min-width: 373px) and (max-width: 417px) {
+    .charts{
+        margin-top: 2%;
+        margin-bottom: 10%;
+    }
+    .contain {
+        margin-top: 2%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .charts{
+        margin-top: 0;
+    }
+}

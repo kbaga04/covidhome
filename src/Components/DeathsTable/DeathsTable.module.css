@@ -1,0 +1,209 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.tbl, th, td {
+    border-collapse: collapse;
+}
+
+.contain{
+    width: 45%;
+    float: left;
+}
+
+h3{
+    text-align: center;
+}
+
+.chartss{
+    width: 60%;
+    height: 60%;
+    margin-left: 50px;
+    float: left;
+    margin-top: 4%;
+}
+
+.stat{
+    margin-top: 3%;
+}
+
+th{
+    text-align: left;
+}
+
+.tbl{
+    border-spacing: 5px;
+    margin: 0 0;
+    font-size: 0.9em;
+    width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tbl thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+.tbl th, .tbl td{
+    padding: 12px 15px;
+}
+
+.tbl tbody tr{
+    border-bottom: 1px solid #dddddd;
+    font-family: 'Merriweather', serif;
+}
+
+.tbl tbody tr:nth-of-type(even){
+    background-color: rgba(202, 204, 206, 0.6);
+    color: #009879;
+    font-weight: 600;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.tbl{
+    border-bottom: 2px solid #009879;
+}
+
+@media only screen and (max-width: 375px) {
+   .contain{
+       width: 80%;
+   }
+
+   .tbl{
+       width: 300px;
+   }
+}
+
+@media only screen and (min-width: 900px){
+    .tbl{
+        width: 450px;
+    }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.tbl, th, td {
+    border-collapse: collapse;
+}
+
+h3{
+    text-align: center;
+}
+
+th{
+    text-align: left;
+}
+
+.chartss{
+    width: 60%;
+    height: 60%;
+    width: 45%;
+    margin-left: 50px;
+    float: left;
+    margin-top: 4%;
+}
+
+.stat{
+    margin-top: 3%;
+}
+
+.contain{
+    width: 45%;
+    float: left;
+}
+
+.tbl{
+    border-spacing: 5px;
+    margin: 0 0;
+    font-size: 0.9em;
+    width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tbl thead tr{
+    background-color: crimson;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+.tbl th, .tbl td{
+    padding: 12px 15px;
+}
+
+.tbl tbody tr{
+    border-bottom: 1px solid #dddddd;
+    font-family: 'Merriweather', serif;
+}
+
+.tbl tbody tr:nth-of-type(even){
+    background-color: rgba(202, 204, 206, 0.6);
+    color: crimson;
+    font-weight: 600;
+}
+
+.three{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.tbl{
+    border-bottom: 2px solid crimson;
+}
+
+@media only screen and (max-width: 375px) {
+    .contain{
+        width: 80%;
+    }
+ 
+    .tbl{
+        width: 300px;
+    }
+ }
+
+ @media only screen and (min-width: 900px){
+    .tbl{
+        width: 450px;
+    }
+    .stat{
+        width: 902px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .chartss{
+        width: 80%;
+        height: 20vh;
+    }
+    .tble{
+        width: 80%;
+    }
+}
+
+@media only screen and (width: 768px){
+    .tble{
+        width: 100%;    
+    }
+    .contain{
+        width: 100%;
+        float: none;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .chartss {
+        margin-top: 0;
+    }
+}
