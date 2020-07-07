@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+*{
+    font-family: 'Merriweather', serif;
+}
+
+.logoSite{
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+.container{
+    margin: 50px 0;
+    padding-bottom: 50px;
+}
+
+.card{
+    margin: 25px 2% !important;
+}
+
+.infected{
+    border-top: 10px solid rgba(65,105,225,0.7);
+}
+
+.recovered{
+    border-top: 10px solid rgba(104, 210, 165, 0.7);
+}
+
+
+.deaths{
+    border-top: 10px solid rgba(225, 65, 65, 0.7);
+}
+
+.lead{
+    font-size: 2.3rem;
+    text-align: center;
+    line-height: 1;
+    font-weight: inherit;
+}
+
+.inline{
+    margin: 0 2px;
+    vertical-align: -12px;
+    display: inline;
+    animation: rotate 5s linear infinite;
+    width: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes rotate{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}
+
+@media screen and (max-width: 769px){
+    .logoSite{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .logoSite{
+        margin-top: 18%;
+    }
+}

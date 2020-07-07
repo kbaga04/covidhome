@@ -1,18 +1,35 @@
 import React from 'react';
-import './App.css';
-import { Navbar } from './Components';
+import styles from './App.module.css';
+import { Navbar, Cards, ConfirmedTbl, RecoveredTable, DeathsTable, Chart, CountryPicker } from './Components';
 import GlobalStyle from '../src/Components/styles/Global';
+import { fetchData } from "./api/";
 
 class App extends React.Component {
   state = {
     navbarOpen: false,
+    data: {},
+    country: "",
   };
+
+  async componentDidMount() {
+    const data = await fetchData();
+
+    this.setState({ data });
+  }
 
   handleNavbar = () => {
     this.setState({ navbarOpen: !this.state.navbarOpen });
   }
 
+  handleCountryChange = async (country) => {
+    const data = await fetchData(country);
+
+    this.setState({ data, country: country });
+  };
+
   render() {
+    const { data, country } = this.state;
+
     return (
       <>
         <Navbar
@@ -20,6 +37,9 @@ class App extends React.Component {
           handleNavbar={this.handleNavbar}
         />
         <GlobalStyle />
+        <div className={styles.totalContain}>
+          <Cards data={data} />
+        </div>
       </>
     );
   }
