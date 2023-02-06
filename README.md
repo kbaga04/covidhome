@@ -10,6 +10,6 @@ This application was created using the React.js JavaScript Library and multiple 
 -----------------------------------------------------------------------------------
 
 ## LINK FOR WEBSITE:
-  https://curiousexpert24.github.io/covidhome/
+  https://kbaga04.github.io/covidhome/
   
 ## THANKS FOR CHECKING OUT MY WEBSITE
