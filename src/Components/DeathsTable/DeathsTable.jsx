@@ -29,19 +29,22 @@ export default class DeathsTable extends React.Component {
             var countryNums = []
             var sortedCountries = [];
 
+            console.log(this.state.country.length)
             for (let i = 0; i < 186; i++) {
                 countryDeaths.push(this.state.country.Countries[i]);
                 countryNums.push(countryDeaths[i].TotalDeaths);
             }
 
-            var sortedCountries = countryNums.sort((a, b) => b - a).slice(0, 5);
+            sortedCountries = countryNums.sort((a, b) => b - a).slice(0, 5);
 
             for (let i = 0; i < 186; i++) {
                 if (countryDeaths[i].Country === "United States of America") {
                     countryDeaths[i].Country = "US"
+                    console.log("US FOUND")
                 }
                 if (countryDeaths[i].Country === "Russian Federation") {
                     countryDeaths[i].Country = "Russia"
+                    console.log("RUSSIA FOUND")
                 }
                 let x = 0;
                 while (countryDeaths[i].TotalDeaths !== sortedCountries[x] && x < 5) {

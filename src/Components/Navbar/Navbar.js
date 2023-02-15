@@ -61,8 +61,8 @@ const Navbar = (props) => {
                 <FlexContainer>
                     <Brand />
                     <NavLinks style={linkAnimation}>
-                        <a href="https://curiousexpert24.github.io/covidtacker_about/">About</a>
-                        <a href="https://curiousexpert24.github.io/covidtacker_about/safetypage.html">Safety Page</a>
+                        <a href="https://kbaga04.github.io/covidtracker_about/">About</a>
+                        <a href="https://kbaga04.github.io/covidtracker_about/safetypage.html">Safety Page</a>
                     </NavLinks>
                     <BurgerWrapper>
                         <BurgerMenu

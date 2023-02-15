@@ -19,7 +19,7 @@ export default class RecoveredTable extends React.Component {
 
     render() {
         if (this.state.loading || !this.state.person) {
-            return <div>Loading...</div>
+            return <div> </div>
         }
 
         else {

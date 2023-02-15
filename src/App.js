@@ -38,11 +38,18 @@ class App extends React.Component {
         />
         <GlobalStyle />
         <div className={styles.totalContain}>
-          <Cards data={data} />
+          <div className={styles.logoSite}>
+                <h2 className={styles.lead}>
+                    COVID TRACKER
+                </h2>
+                <h5>Reliable tracker for COVID-19 Cases, Recoveries, and Deaths</h5>
+          </div>
+          <div className={styles.cardContainer}>
+               <Cards data={data} />
+          </div>
           <CountryPicker handleCountryChange={this.handleCountryChange} />
           <Chart data={data} country={country} />
           <ConfirmedTbl />
-          <RecoveredTable />
           <DeathsTable />
         </div>
       </>
